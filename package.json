@@ -1,18 +1,17 @@
 {
-  "name": "pw",
+  "name": "restful-booker-tests",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "test:api": "jest booking.test.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@types/node": "^25.5.0"
-  },
-  "dependencies": {
-    "dotenv": "^17.3.1"
+    "jest": "^30.3.0"
   }
 }
